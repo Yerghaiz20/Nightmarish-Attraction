@@ -18828,5 +18828,7 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.exps.round,
 	cr.system_object.prototype.exps.random,
 	cr.behaviors.Pathfinding.prototype.acts.RegenerateMap,
+	cr.behaviors.Pathfinding.prototype.cnds.OnFailedToFindPath,
+	cr.plugins_.Sprite.prototype.acts.SetPos,
 	cr.plugins_.Button.prototype.cnds.OnClicked
 ];};
